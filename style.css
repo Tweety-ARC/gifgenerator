@@ -1,0 +1,27 @@
+@media only screen and (max-width : 320px) {
+/* Styles pour smartphone */
+    
+    body {
+       
+    }   
+    
+    img {
+        max-width: 100%;
+    }
+        
+    
+}
+
+@media only screen and (max-width : 768px) {
+/* Styles pour Ecran ordinateur */
+    
+    body {
+       
+    }
+    
+    img {
+        max-width: 100%;
+    }
+       
+    
+}

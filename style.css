@@ -1,4 +1,20 @@
-@media only screen and (max-width : 320px) {
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+ img {
+        max-width: 100%;
+        height: auto;
+         margin-bottom: 7px;
+         
+    
+    }
+
+
+@media only screen and (max-width : 767px) {
 /* Styles pour smartphone */
     
     body {
@@ -7,12 +23,14 @@
     
     img {
         max-width: 100%;
+        height: auto;
+
     }
         
     
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 1024px) {
 /* Styles pour Ecran ordinateur */
     
     body {
@@ -21,6 +39,8 @@
     
     img {
         max-width: 100%;
+        height: auto;
+        
     }
        
     
